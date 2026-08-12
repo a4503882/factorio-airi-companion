@@ -1,0 +1,17 @@
+* text=auto
+
+*.py text eol=lf
+*.lua text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.cfg text eol=lf
+*.graphql text eol=lf
+*.cmd text eol=crlf
+
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary

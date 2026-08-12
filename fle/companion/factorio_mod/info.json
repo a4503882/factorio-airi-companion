@@ -1,0 +1,11 @@
+{
+  "name": "airi-companion",
+  "version": "0.1.0",
+  "title": "AIRI Companion for FLE",
+  "author": "Factorio Learning Environment contributors",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.73"
+  ],
+  "description": "A persistent in-game AI companion body and localhost Agent bridge for Factorio Learning Environment."
+}

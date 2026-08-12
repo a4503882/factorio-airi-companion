@@ -7,6 +7,18 @@
 An open source framework for developing and evaluating LLM agents in the game of <a href="https://factorio.com/">Factorio</a>.
 </p>
 
+## AIRI Companion fork
+
+This public fork adds a single-client AIRI companion, a local research Control
+Center, and an adapter for the upstream FLE Python-policy harness. The original
+project is [JackHopkins/factorio-learning-environment](https://github.com/JackHopkins/factorio-learning-environment),
+and its MIT license and authorship are preserved.
+
+Provider credentials are never stored in the repository, Factorio mod, save,
+command line, or research trajectory. The Control Center keeps API keys in
+Windows Credential Manager; local profiles, session logs, saves, `ds.txt`, and
+packaged Mod ZIPs are excluded from version control.
+
 <p align="center">
 <img src="https://github.com/JackHopkins/factorio-learning-environment/raw/main/docs/assets/videos/compressed_sulfuric_acid.webp" width="485" height="364" controls/>
 <img src="https://github.com/JackHopkins/factorio-learning-environment/raw/main/docs/assets/videos/compressed_red_science.webp" width="485" height="364" controls/>
@@ -17,6 +29,8 @@ An open source framework for developing and evaluating LLM agents in the game of
 
 - [Installation](#installation)
 - [Environment](#environment)
+- [Single-client AIRI companion](fle/companion/README.md)
+- [AIRI research Control Center](fle/companion/README.md#research-control-center)
 - [Contributing](#contributing)
 
 ## Installation

@@ -1,6 +1,8 @@
 # Python/venv
 .venv/
 .env
+.env.*
+!.example.env
 .fle/
 api_keys.json
 **/.claude/settings.local.json
@@ -19,6 +21,28 @@ uv.lock
 /dist/
 /build/
 *.egg-info/
+.pytest_cache/
+
+# AIRI Companion local/private state and release artifacts
+/ds.txt
+**/ds.txt
+/.airi-factorio/
+/airi-data/
+/sessions/
+/profiles.json
+/settings.json
+/bridge-status.json
+/airi-companion_*.zip
+/_autosave*.zip
+/saves/
+
+# Private keys and credential containers
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
 
 # Docker
 **/docker-compose.yml

@@ -111,6 +111,9 @@ inspect = [
 
 [project.scripts]
 fle = "fle.run:main"
+fle-companion = "fle.companion.launcher:main"
+fle-companion-bridge = "fle.companion.bridge:main"
+fle-companion-control-center = "fle.companion.control_center:main"
 
 [tool.hatch.version]
 path = "fle/__init__.py"
